@@ -1,0 +1,57 @@
+body{
+  background-color: gainsboro;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px;
+}
+
+.post{
+  width: 5vw;
+  background-color: black;
+  height: 10vh;
+}
+
+.stoplight{
+  background-color: black;
+  padding: 1rem;
+}
+
+.light{
+  height:10vh;
+  width:10vh;
+  border-radius: 50%;
+  background-color: white;
+  margin-bottom: .8rem;
+}
+
+.yellow{
+  background-color: yellow;
+}
+
+
+.red{
+  background-color: red;
+}
+
+.green{
+  background-color: green;
+}
+
+img{
+  width: inherit;
+  height: inherit;
+}
+
+.yellow:hover{
+  box-shadow: 1px -1px 30px 10px yellow;
+}
+
+
+.green:hover{
+  box-shadow: 1px -1px 30px 5px rgb(5, 219, 5);
+}
+
+.red:hover{
+  box-shadow: 1px -1px 30px 10px rgb(255, 0, 0);
+}
